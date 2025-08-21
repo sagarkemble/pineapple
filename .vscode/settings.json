@@ -1,0 +1,31 @@
+{
+    "editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "scope": [
+        "string.quoted.double.js",
+        "string.quoted.single.js",
+        "string.template.js"
+      ],
+      "settings": {
+        "foreground": "#cee4c6"   // your JS strings color
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html"
+      ],
+      "settings": {
+        "foreground": "#cee4c6"   // example: gold for HTML attribute values
+      }
+    }
+  ]
+}
+,
+"workbench.colorCustomizations": {
+  "editorIndentGuide.background": "#1d1d1d", 
+  
+}
+
+}
